@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint FX Trading Journal</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1E1E1E;
+            color: #FFFFFF;
+        }
+
+        a { color: #00AEEF; text-decoration: none; }
+        header { background-color: #111111; padding: 20px 0; }
+        nav { display: flex; justify-content: space-around; align-items: center; }
+        nav a { font-weight: bold; font-size: 1rem; }
+
+        .hero { text-align: center; padding: 80px 20px; background-color: #222222; }
+        .hero h1 { font-size: 3rem; color: #00AEEF; }
+        .hero p { font-size: 1.2rem; margin-top: 10px; }
+        .btn { display: inline-block; margin-top: 20px; padding: 10px 25px; background-color: #00AEEF; color: #fff; font-weight: bold; border-radius: 5px; transition: background 0.3s; }
+        .btn:hover { background-color: #008bb5; }
+
+        .product-detail { max-width: 800px; margin: 50px auto; padding: 20px; background-color: #2A2A2A; border-radius: 10px; }
+        .product-detail img { width: 100%; border-radius: 10px; margin-bottom: 15px; }
+        footer { background-color: #111111; text-align: center; padding: 20px 0; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="store.html">Store</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Saint FX Trading Journal</h1>
+    <p>Track your trades, emotions, and performance with our dark mode trading journal.</p>
+    <a href="#buy" class="btn">Buy Now</a>
+</section>
+
+<section class="product-detail" id="buy">
+    <img src="trading_journal_mockup.png" alt="Saint FX Trading Journal">
+    <h2>Product Details</h2>
+    <p>Dark mode trading journal designed to help traders document every trade, analyze performance, and improve consistency. Includes trade entry, exit, risk management, and emotional tracking sections.</p>
+    <ul>
+        <li>Track trades and outcomes</li>
+        <li>Calculate risk and R:R</li>
+        <li>Analyze emotions and discipline</li>
+        <li>Equity curve dashboard</li>
+    </ul>
+    <a href="#" class="btn">Buy Now - KES 500</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Saint FX Trading Tools. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
