@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blueshine Trading Tools</title>
+    <style>
+        /* GENERAL STYLING */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1E1E1E;
+            color: #FFFFFF;
+        }
+
+        a {
+            color: #00AEEF;
+            text-decoration: none;
+        }
+
+        header {
+            background-color: #111111;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #222222;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #00AEEF;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #00AEEF;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #008bb5;
+        }
+
+        .store {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 50px 20px;
+        }
+
+        .product-card {
+            background-color: #2A2A2A;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #111111;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        @media(max-width: 600px){
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="store.html">Store</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Blueshine Trading Tools</h1>
+    <p>Trading Journal, Risk Calculator, and Weekly XAUUSD Chart Markups</p>
+    <a href="store.html" class="btn">Shop Now</a>
+</section>
+
+<section class="store">
+    <div class="product-card">
+        <img src="trading_journal_mockup.png" alt="Trading Journal">
+        <h2>Trading Journal</h2>
+        <p>Dark mode trading journal to track your trades, emotions, and performance.</p>
+        <a href="product1.html" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="risk_calculator_mockup.png" alt="Risk Management Calculator">
+        <h2>Risk Management Calculator</h2>
+        <p>Calculate position size, stop loss, and risk per trade with ease.</p>
+        <a href="product2.html" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product-card">
+        <img src="weekly_chart_mockup.png" alt="Weekly Chart Markups">
+        <h2>Weekly XAUUSD Chart Markups</h2>
+        <p>Get annotated weekly XAUUSD charts highlighting key levels and breakout points.</p>
+        <a href="product3.html" class="btn">Subscribe</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Blueshine Trading Tools. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
